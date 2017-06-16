@@ -1,5 +1,7 @@
 */Just testing*/
 
+var reason = true;
+
 if (reason == true) {
   document.getElementById("clientIP").innerHTML = 
   document.getElementById("clientIP").innerHTML.replace (/\.\d+\.\d+\./, ".***.***.");
