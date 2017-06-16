@@ -1,4 +1,6 @@
 */Just testing*/
-if (reason) {
-  clientIP = /.d+./.***./;
+var clientIP;
+clientIP = "192.168.0.123"
+if (reason == true) {
+  clientIP = clientIP.replace (/\.\d+\.\d+\./, ".***.***.");
   }
